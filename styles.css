@@ -11,6 +11,7 @@
 
 body {
   font-family: roboto, Arial, sans-serif;
+  margin: 0;
 }
 
 ul {
@@ -27,11 +28,40 @@ a {
   font-size: 18px;
 }
 
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  margin: 0;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 16%;
+  border: 0;
+  padding: 8px 16px;
+}
+
+.header, .introduction {
+  background-color: #1f2937;
+}
+
+.header,
+.introduction,
+.info,
+.quote,
+.call-to-action,
+.footer {
+  padding: 0 64px;
+}
+
 .header {
   display: flex;
-  background-color: #1f2937;
   justify-content: space-between;
   align-items: center;
+  padding-top: 16px;
 }
 
 .header-logo {
@@ -39,3 +69,16 @@ a {
   color: #f9faf8;
   font-size: 24px;
 }
+
+.introduction {
+  display: flex;
+  padding: 64px;
+  gap: 32px;
+}
+
+.intro-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-right: auto;
+}
+
