@@ -52,6 +52,12 @@ h3 {
   font-weight: 800;
 }
 
+h6 {
+  font-size: 24px;
+  color: #f9faf8;
+  margin: 0;
+}
+
 button {
   background-color: #3882f6;
   color: white;
@@ -59,7 +65,7 @@ button {
   font-weight: bold;
   border-radius: 16%;
   border: 0;
-  padding: 8px 16px;
+  padding: 8px 24px;
 }
 
 img {
@@ -69,6 +75,14 @@ img {
 
 #diner {
   border: none;
+}
+
+#p-no-margin {
+  margin: 0;
+}
+
+#button-border {
+  border: 2px solid white;
 }
 
 .header, .introduction {
@@ -137,7 +151,7 @@ img {
   font-style: italic;
   display: flex;
   flex-direction: column;
-  padding: 64px;
+  padding: 64px 120px;
 }
 
 .quote-text {
@@ -150,4 +164,18 @@ img {
   font-style: normal;
   align-self: flex-end;
   margin-top: 0;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  display: flex;
+  padding: 32px 64px;
+  justify-content: space-between;
+  margin: 64px;
+  border-radius: 8px;
+}
+
+.action-text {
+  color: #e5e7eb;
+  font-size: 18px;
 }
