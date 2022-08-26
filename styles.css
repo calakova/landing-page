@@ -179,3 +179,12 @@ img {
   color: #e5e7eb;
   font-size: 18px;
 }
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
